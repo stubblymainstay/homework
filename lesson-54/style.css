@@ -1,0 +1,33 @@
+* {
+    background-color: black;
+    color: aliceblue;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 200vh }
+
+.container {
+    position: fixed;
+    left: 50%;
+    top: 90%;
+    
+}
+.square { position: relative;
+    width: 950px;
+    height: 100px;
+    background-color: white;
+border-radius: 25px;
+right: 50px;
+bottom: 100px;
+
+}
+
+.circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    top: -50px; 
+    left: 10%; }
