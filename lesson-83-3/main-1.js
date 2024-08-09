@@ -16,7 +16,7 @@ const users = [
     isAdmin: true }
 ];
 
-let NumberOfAdminst = 0;
+let user = 0;
 
 for (let i = 0; i < users.length; i++) {
   if (!users[i].isAdmin) {
@@ -26,7 +26,7 @@ for (let i = 0; i < users.length; i++) {
     }
 }
 
-console.log(`Всего`, NumberOfAdminst ,`простых пользователей`)
+console.log(`Всего`, user ,`простых пользователей`)
 
 
 
